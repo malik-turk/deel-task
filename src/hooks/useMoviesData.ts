@@ -14,13 +14,10 @@ const useMoviesData = () => {
         setIsLoading(true);
         fetch(`${BASE_URL}${POPULAR_MOVIES_ENDPOINT}?api_key=${API_KEY}&page=${page}`, {  })
         .then((res) => res.json())
-        .then((data) =>
-            setTimeout(() => {
-                // setTimeout used here to slow down the api
-                setMoviesData([...moviesData, ...data?.results]);
-                setIsLoading(false);
-            }, 1000)
-        );
+        .then((data) => {
+            setMoviesData([...moviesData, ...data?.results]);
+            setIsLoading(false);
+        });
     };
 
     useEffect(() => {
