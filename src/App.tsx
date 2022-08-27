@@ -1,8 +1,16 @@
+// Components
+import Autocomplete from "./components/Autocomplete";
+
+// Styles
+import './assets/styles/app.scss';
+
 function App() {
   return (
-    <div>
-      app
-    </div>
+    <main className="app-wrapper">
+      <div className="container main-section">
+        <Autocomplete />
+      </div>
+    </main>
   );
 }
 
