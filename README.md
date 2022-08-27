@@ -21,7 +21,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Wireframes
 
-[https://wireframe.cc/pro/pp/7cfb98725575844](http://https://wireframe.cc/pro/pp/7cfb98725575844 "https://wireframe.cc/pro/pp/7cfb98725575844")
+[https://wireframe.cc/pro/pp/7cfb98725575844](https://wireframe.cc/pro/pp/7cfb98725575844 "https://wireframe.cc/pro/pp/7cfb98725575844")
 
 ## Demo
 
