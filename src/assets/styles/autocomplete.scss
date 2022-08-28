@@ -4,8 +4,6 @@
     justify-content: center;
     flex-direction: column;
     position: relative;
-    top: 61px;
-    left: 0;
 }
 
 .search-input {
@@ -62,5 +60,19 @@
             background: #2c71f0;
             color: #fff;
         }
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .search-input {
+        min-width: unset;
+    }
+
+    .search-input, .dropdown-items-container {
+        width: calc(100% - 20px);
+    }
+
+    .search-wrapper {
+        flex: 1;
     }
 }
